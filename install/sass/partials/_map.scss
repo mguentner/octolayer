@@ -1,0 +1,70 @@
+.map {
+  @extend .flex-content;
+  @extend .basic-alignment;
+  @include shadow-box;
+  img {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: rgba(0,0,0,0.15) 0 0px 0px;
+    -moz-box-shadow: rgba(0,0,0,0.15) 0 0px 0px;
+    box-shadow: rgba(0,0,0,0.15) 0 0px 0px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: none;
+    max-width: none;
+  }
+}
+.mapCaption
+{
+  @extend .sans;
+  font-size: .6em;
+  color: $footer-color;
+  text-shadow: lighten($footer-bg, 5) 0 1px;
+  text-align: right;
+}
+.olPopup {
+  @include shadow-box;
+  background: $noise-bg $main-bg !important;  
+}
+.olPopupContent {
+  padding: 5px;
+}
+.olPopupCloseBox {
+  background: image-url("close.png") no-repeat;
+  cursor: pointer;
+}
+/**
+ * Cursor styles
+ */
+
+.olCursorWait {
+  cursor: wait;
+}
+.olDragDown {
+  cursor: move;
+}
+.olDrawBox {
+  cursor: crosshair;
+}
+.olControlDragFeatureOver {
+  cursor: move;
+}
+.olControlDragFeatureActive.olControlDragFeatureOver.olDragDown {
+  cursor: -moz-grabbing;
+}
+
+/**
+ * Animations
+ */
+
+.olLayerGrid .olTileImage {
+  -webkit-transition: opacity 0.2s linear;
+  -moz-transition: opacity 0.2s linear;
+  -o-transition: opacity 0.2s linear;
+transition: opacity 0.2s linear;
+}
+
