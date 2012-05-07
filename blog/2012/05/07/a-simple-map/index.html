@@ -9,8 +9,8 @@
   <meta name="author" content="Maximilian Güntner">
 
   
-  <meta name="description" content="Berlin Error processing input, expected syntax: {% map lat lon zoomlevel markerTitle markerDescription %} - * => optional Code 1
-{% map 52.5186 13. &hellip;">
+  <meta name="description" content="Berlin Map Data: OpenStreeMap and contributors. CC-BY-SA - Tiles Courtesy of MapQuest Code 1
+{% map 52.5186 13.408056 12 %} ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -101,7 +101,11 @@
 
 <div class="entry-content"><h2>Berlin</h2>
 
-<p>Error processing input, expected syntax: {% map lat lon zoomlevel markerTitle<em> markerDescription</em> %} - * => optional</p>
+<div class='map'><div style='height:420px' id='map1'></div><div class='mapCaption'>Map Data: <a href='http://openstreetmap.org'>OpenStreeMap</a> and contributors. <a href='http://creativecommons.org/licenses/by-sa/2.0/'>CC-BY-SA</a> - Tiles Courtesy of <a href='http://www.mapquest.com/' target='_blank'>MapQuest</a><img src='http://developer.mapquest.com/content/osm/mq_logo.png'></div></div>
+
+
+<script type='text/javascript'>jQuery(document).ready(function() {initmap('map1',52.5186,13.408056,12,'','');});</script>
+
 
 <h2>Code</h2>
 
