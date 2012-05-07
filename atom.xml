@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Octolayer]]></title>
+  <link href="http://mguentner.github.com/octolayer/atom.xml" rel="self"/>
+  <link href="http://mguentner.github.com/octolayer/"/>
+  <updated>2012-05-07T17:32:57+02:00</updated>
+  <id>http://mguentner.github.com/octolayer/</id>
+  <author>
+    <name><![CDATA[Maximilian Güntner]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[A map with a marker]]></title>
+    <link href="http://mguentner.github.com/octolayer/blog/2012/05/07/a-map-with-a-marker/"/>
+    <updated>2012-05-07T17:25:00+02:00</updated>
+    <id>http://mguentner.github.com/octolayer/blog/2012/05/07/a-map-with-a-marker</id>
+    <content type="html"><![CDATA[<h2>Our next event</h2>
+
+<div class='map'><div style='height:420px' id='map98'></div><div class='mapCaption'>Map Data: <a href='http://openstreetmap.org'>OpenStreeMap</a> and contributors. <a href='http://creativecommons.org/licenses/by-sa/2.0/'>CC-BY-SA</a> - Tiles Courtesy of <a href='http://www.mapquest.com/' target='_blank'>MapQuest</a><img src='http://developer.mapquest.com/content/osm/mq_logo.png'></div></div>
+
+
+<script type='text/javascript'>jQuery(document).ready(function() {initmap('map98',52.5186,13.408056,12,'We\'ll meet here','It\'s a nice place');});</script>
+
+
+<h2>Code</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>{% map 52.5186 13.408056 12 "We'll meet here" "It's a nice place" %}</span></code></pre></td></tr></table></div></figure>
+
+
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Just a marker]]></title>
+    <link href="http://mguentner.github.com/octolayer/blog/2012/05/07/just-a-marker/"/>
+    <updated>2012-05-07T16:59:00+02:00</updated>
+    <id>http://mguentner.github.com/octolayer/blog/2012/05/07/just-a-marker</id>
+    <content type="html"><![CDATA[<h2>Just a marker without a popup</h2>
+
+<div class='map'><div style='height:420px' id='map97'></div><div class='mapCaption'>Map Data: <a href='http://openstreetmap.org'>OpenStreeMap</a> and contributors. <a href='http://creativecommons.org/licenses/by-sa/2.0/'>CC-BY-SA</a> - Tiles Courtesy of <a href='http://www.mapquest.com/' target='_blank'>MapQuest</a><img src='http://developer.mapquest.com/content/osm/mq_logo.png'></div></div>
+
+
+<script type='text/javascript'>jQuery(document).ready(function() {initmap('map97',52.5186,13.408056,12,'marker','');});</script>
+
+
+<h2>Code</h2>
+
+<p>Use <code>"marker"</code> as the title to generate a marker without a popup</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>{% map 52.5186 13.408056 12 "marker" %}</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A simple map]]></title>
+    <link href="http://mguentner.github.com/octolayer/blog/2012/05/07/a-simple-map/"/>
+    <updated>2012-05-07T16:38:00+02:00</updated>
+    <id>http://mguentner.github.com/octolayer/blog/2012/05/07/a-simple-map</id>
+    <content type="html"><![CDATA[<h2>Berlin</h2>
+
+<p>Error processing input, expected syntax: {% map lat lon zoomlevel markerTitle<em> markerDescription</em> %} - * => optional</p>
+
+<h2>Code</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>{% map 52.5186 13.408056 12 %}</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+</feed>

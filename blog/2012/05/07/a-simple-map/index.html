@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Octolayer</title>
+  <title>A simple map - Octolayer</title>
   <meta name="author" content="Maximilian Güntner">
 
   
-  <meta name="description" content="Our next event Map Data: OpenStreeMap and contributors. CC-BY-SA - Tiles Courtesy of MapQuest Code 1
-{% map 52.5186 13.408056 12 "We'll meet here" " &hellip;">
+  <meta name="description" content="Berlin Error processing input, expected syntax: {% map lat lon zoomlevel markerTitle markerDescription %} - * => optional Code 1
+{% map 52.5186 13. &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://mguentner.github.com/octolayer">
+  <link rel="canonical" href="http://mguentner.github.com/octolayer/blog/2012/05/07/a-simple-map">
   <link href="/octolayer/favicon.png" rel="icon">
   <link href="/octolayer/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/octolayer/javascripts/modernizr-2.0.js"></script>
@@ -71,115 +71,12 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/octolayer/blog/2012/05/07/a-map-with-a-marker/">A Map With a Marker</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-05-07T17:25:00+02:00" pubdate data-updated="true">May 7<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h2>Our next event</h2>
-
-<div class='map'><div style='height:420px' id='map98'></div><div class='mapCaption'>Map Data: <a href='http://openstreetmap.org'>OpenStreeMap</a> and contributors. <a href='http://creativecommons.org/licenses/by-sa/2.0/'>CC-BY-SA</a> - Tiles Courtesy of <a href='http://www.mapquest.com/' target='_blank'>MapQuest</a><img src='http://developer.mapquest.com/content/osm/mq_logo.png'></div></div>
-
-
-<script type='text/javascript'>jQuery(document).ready(function() {initmap('map98',52.5186,13.408056,12,'We\'ll meet here','It\'s a nice place');});</script>
-
-
-<h2>Code</h2>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>{% map 52.5186 13.408056 12 "We'll meet here" "It's a nice place" %}</span></code></pre></td></tr></table></div></figure>
-
-
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/octolayer/blog/2012/05/07/just-a-marker/">Just a Marker</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-05-07T16:59:00+02:00" pubdate data-updated="true">May 7<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h2>Just a marker without a popup</h2>
-
-<div class='map'><div style='height:420px' id='map97'></div><div class='mapCaption'>Map Data: <a href='http://openstreetmap.org'>OpenStreeMap</a> and contributors. <a href='http://creativecommons.org/licenses/by-sa/2.0/'>CC-BY-SA</a> - Tiles Courtesy of <a href='http://www.mapquest.com/' target='_blank'>MapQuest</a><img src='http://developer.mapquest.com/content/osm/mq_logo.png'></div></div>
-
-
-<script type='text/javascript'>jQuery(document).ready(function() {initmap('map97',52.5186,13.408056,12,'marker','');});</script>
-
-
-<h2>Code</h2>
-
-<p>Use <code>"marker"</code> as the title to generate a marker without a popup</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>{% map 52.5186 13.408056 12 "marker" %}</span></code></pre></td></tr></table></div></figure>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/octolayer/blog/2012/05/07/a-simple-map/">A Simple Map</a></h1>
+      <h1 class="entry-title">A Simple Map</h1>
     
     
       <p class="meta">
@@ -202,7 +99,7 @@
   </header>
 
 
-  <div class="entry-content"><h2>Berlin</h2>
+<div class="entry-content"><h2>Berlin</h2>
 
 <p>Error processing input, expected syntax: {% map lat lon zoomlevel markerTitle<em> markerDescription</em> %} - * => optional</p>
 
@@ -212,18 +109,59 @@
 </pre></td><td class='code'><pre><code class=''><span class='line'>{% map 52.5186 13.408056 12 %}</span></code></pre></td></tr></table></div></figure>
 
 </div>
+
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Maximilian Güntner</span></span>
+
+      
+
+
+
+
+
+
+
+
   
 
 
-    </article>
+<time datetime="2012-05-07T16:38:00+02:00" pubdate data-updated="true">May 7<span>th</span>, 2012</time>
+      
+
+<span class="categories">
   
-  <div class="pagination">
+    <a class='category' href='/octolayer/blog/categories/example/'>example</a>, <a class='category' href='/octolayer/blog/categories/map/'>map</a>
+  
+</span>
+
+
+    </p>
     
-    <a href="/octolayer/blog/archives">Blog Archives</a>
-    
-  </div>
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://mguentner.github.com/octolayer/blog/2012/05/07/a-simple-map/" data-via="" data-counturl="http://mguentner.github.com/octolayer/blog/2012/05/07/a-simple-map/" >Tweet</a>
+  
+  
+  
 </div>
+
+    
+    <p class="meta">
+      
+      
+        <a class="basic-alignment right" href="/octolayer/blog/2012/05/07/just-a-marker/" title="Next Post: Just a marker">Just a marker &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
 <aside class="sidebar">
   
     <section>
@@ -252,6 +190,7 @@
 
   
 </aside>
+
 
     </div>
   </div>

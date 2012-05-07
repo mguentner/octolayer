@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: map | Octolayer]]></title>
+  <link href="http://mguentner.github.com/octolayer/blog/categories/map/atom.xml" rel="self"/>
+  <link href="http://mguentner.github.com/octolayer/"/>
+  <updated>2012-05-07T17:32:57+02:00</updated>
+  <id>http://mguentner.github.com/octolayer/</id>
+  <author>
+    <name><![CDATA[Maximilian Güntner]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[A map with a marker]]></title>
+    <link href="http://mguentner.github.com/octolayer/blog/2012/05/07/a-map-with-a-marker/"/>
+    <updated>2012-05-07T17:25:00+02:00</updated>
+    <id>http://mguentner.github.com/octolayer/blog/2012/05/07/a-map-with-a-marker</id>
+    <content type="html"><![CDATA[<h2>Our next event</h2>
+
+<p><div class='map'><div style='height:420px' id='map99'></div><div class='mapCaption'>Map Data: <a href='http://openstreetmap.org'>OpenStreeMap</a> and contributors. <a href='http://creativecommons.org/licenses/by-sa/2.0/'>CC-BY-SA</a> - Tiles Courtesy of <a href='http://www.mapquest.com/' target='_blank'>MapQuest</a><img src='http://developer.mapquest.com/content/osm/mq_logo.png'></div></div><script type='text/javascript'>jQuery(document).ready(function() {initmap('map99',52.5186,13.408056,12,'We\'ll meet here','It\'s a nice place');});</script></p>
+
+<h2>Code</h2>
+
+<p><code>
+{% map 52.5186 13.408056 12 "We'll meet here" "It's a nice place" %}
+</code></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A simple map]]></title>
+    <link href="http://mguentner.github.com/octolayer/blog/2012/05/07/a-simple-map/"/>
+    <updated>2012-05-07T16:38:00+02:00</updated>
+    <id>http://mguentner.github.com/octolayer/blog/2012/05/07/a-simple-map</id>
+    <content type="html"><![CDATA[<h2>Berlin</h2>
+
+<p>Error processing input, expected syntax: {% map lat lon zoomlevel markerTitle* markerDescription* %} - * => optional</p>
+
+<h2>Code</h2>
+
+<p><code>
+{% map 52.5186 13.408056 12 %}
+</code></p>
+]]></content>
+  </entry>
+  
+</feed>
