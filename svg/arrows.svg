@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="18.000000px"
+   height="18.000000px"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="arrows.svg"
+   inkscape:export-filename="/home/mguentner/Projekte/blog/octolayer/zoom-plus-mini.png"
+   inkscape:export-xdpi="90.000000"
+   inkscape:export-ydpi="90.000000"
+   version="1.1">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="11.313708"
+     inkscape:cx="2.5855432"
+     inkscape:cy="9"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     inkscape:window-width="1226"
+     inkscape:window-height="800"
+     inkscape:window-x="168"
+     inkscape:window-y="81"
+     showgrid="false"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="background"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g2110"
+       inkscape:export-filename="/home/mguentner/Projekte/blog/octolayer/west.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="matrix(-1,0,0,-1,18,18)">
+      <path
+         transform="matrix(0,-1.00316,1.00316,0,-0.02844,18.02844)"
+         d="m 17.971654,9 c 0,4.954908 -4.016746,8.971654 -8.971654,8.971654 C 4.0450923,17.971654 0.02834606,13.954908 0.02834606,9 0.02834606,4.0450923 4.0450923,0.02834606 9,0.02834606 c 4.954908,0 8.971654,4.01674624 8.971654,8.97165394 z"
+         sodipodi:ry="8.9716539"
+         sodipodi:rx="8.9716539"
+         sodipodi:cy="9"
+         sodipodi:cx="9"
+         id="path2059"
+         style="fill:#999999;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <rect
+         transform="matrix(0,-1,1,0,0,0)"
+         y="4.3599998e-06"
+         x="-9.0000048"
+         height="18"
+         width="9"
+         id="rect2061"
+         style="fill:#999999;fill-opacity:1;stroke:none" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="overlay"
+     style="display:inline">
+    <path
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Verdana"
+       d="M 8.966776,2.429238 C 8.498492,2.429248 8.106149,2.63667 7.7897451,3.051504 7.7454451,3.107764 7.54611,3.406591 7.1917371,3.947988 L 4.7522451,7.6183 c -0.07594,0.112505 -0.145546,0.267193 -0.208828,0.4640629 -0.06328,0.1898483 -0.09492,0.3832075 -0.09492,0.580078 1.1e-6,0.3726603 0.1202351,0.6925816 0.360703,0.959765 0.2404691,0.267191 0.5315631,0.4007851 0.873281,0.4007831 0.455624,2e-6 0.828984,-0.2390611 1.120078,-0.7171885 l 0.768867,-1.2445314 0,5.9485559 c -2e-6,0.478127 0.129726,0.857813 0.38918,1.139062 0.2594509,0.281251 0.6074969,0.421875 1.044141,0.421875 0.455621,0 0.8036674,-0.147655 1.0441409,-0.442968 0.240464,-0.302343 0.360698,-0.685546 0.360703,-1.14961 l 0,-5.8852743 0.882771,1.3605462 c 0.113901,0.168754 0.259447,0.2988321 0.436641,0.390235 0.183509,0.084378 0.379681,0.1265661 0.588516,0.1265631 0.354367,3e-6 0.648625,-0.1300761 0.882773,-0.390235 0.234133,-0.2601523 0.351203,-0.5906206 0.351211,-0.991406 -8e-6,-0.3656203 -0.113914,-0.724214 -0.341719,-1.075781 L 10.476034,3.431191 C 10.254545,3.100732 10.045717,2.86167 9.8495497,2.714004 9.6027487,2.52417 9.324311,2.429248 9.014237,2.429238 l -0.04746,0"
+       id="text2082"
+       sodipodi:nodetypes="csccsssscccssscccssssccscc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/mguentner/Projekte/blog/octolayer/west.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+</svg>

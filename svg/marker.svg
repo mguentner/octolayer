@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="21"
+   height="25"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="marker.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3017">
+      <stop
+         id="stop3793"
+         offset="0"
+         style="stop-color:#e2e2e2;stop-opacity:1;" />
+      <stop
+         style="stop-color:#717171;stop-opacity:0.99607843;"
+         offset="1"
+         id="stop3813" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3017"
+       id="linearGradient3023"
+       x1="10.417198"
+       y1="1030.4861"
+       x2="10.385631"
+       y2="1050.468"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="38.72858"
+     inkscape:cy="-95.546255"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1060"
+     inkscape:window-x="1917"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1027.3622)">
+    <path
+       style="fill:url(#linearGradient3023);stroke:#434343;stroke-width:0.98309778999999997px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 20.420473,1036.4863 c -1.009165,-5.9322 -5.776084,-8.3266 -10.05937,-8.3118 -4.2832838,0 -8.6467648,2.3896 -9.65593048,8.3219 -0.52907327,6.6572 4.48071218,10.3409 9.65593048,15.203 5.17522,-4.8721 10.588444,-8.5558 10.05937,-15.2131 z"
+       id="path2995-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/mguentner/Projekte/blog/octolayer/marker.png"
+       inkscape:export-xdpi="91.138969"
+       inkscape:export-ydpi="91.138969" />
+    <path
+       sodipodi:type="arc"
+       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#434343;stroke-width:0.9;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3811"
+       sodipodi:cx="-6.6922607"
+       sodipodi:cy="8.3640499"
+       sodipodi:rx="3.8512065"
+       sodipodi:ry="3.8512065"
+       d="m -2.8410542,8.3640499 a 3.8512065,3.8512065 0 1 1 -7.7024128,0 3.8512065,3.8512065 0 1 1 7.7024128,0 z"
+       transform="translate(17.253776,1027.7094)"
+       inkscape:export-filename="/home/mguentner/Projekte/blog/octolayer/marker.png"
+       inkscape:export-xdpi="91.138969"
+       inkscape:export-ydpi="91.138969" />
+  </g>
+</svg>
