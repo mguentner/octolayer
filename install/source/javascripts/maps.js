@@ -23,7 +23,7 @@ function initmap (mapid,lat,lon,zoomlevel,title,description){
     map.addLayer(markers);
     var size = new OpenLayers.Size(21,25);
     var offset = new OpenLayers.Pixel(-(size.w/2), -size.h);
-    var icon = new OpenLayers.Icon('/images/marker.png', size, offset);
+    var icon = new OpenLayers.Icon(rootUrl + '/images/marker.png', size, offset);
     marker = new OpenLayers.Marker(lonLat,icon);
     if (title !== "marker")
     { 
