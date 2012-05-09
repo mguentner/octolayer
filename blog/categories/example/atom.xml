@@ -4,7 +4,7 @@
   <title><![CDATA[Category: example | Octolayer]]></title>
   <link href="http://mguentner.github.com/octolayer/blog/categories/example/atom.xml" rel="self"/>
   <link href="http://mguentner.github.com/octolayer/"/>
-  <updated>2012-05-07T17:49:33+02:00</updated>
+  <updated>2012-05-09T19:06:44+02:00</updated>
   <id>http://mguentner.github.com/octolayer/</id>
   <author>
     <name><![CDATA[Maximilian Güntner]]></name>
@@ -20,7 +20,7 @@
     <id>http://mguentner.github.com/octolayer/blog/2012/05/07/a-map-with-a-marker</id>
     <content type="html"><![CDATA[<h2>Our next event</h2>
 
-<p><div class='map'><div style='height:420px' id='map6'></div><div class='mapCaption'>Map Data: <a href='http://openstreetmap.org'>OpenStreeMap</a> and contributors. <a href='http://creativecommons.org/licenses/by-sa/2.0/'>CC-BY-SA</a> - Tiles Courtesy of <a href='http://www.mapquest.com/' target='_blank'>MapQuest</a><img src='http://developer.mapquest.com/content/osm/mq_logo.png'></div></div><script type='text/javascript'>jQuery(document).ready(function() {initmap('map6',52.5186,13.408056,12,'We\'ll meet here','It\'s a nice place');});</script></p>
+<p><div class='map'><div style='height:420px' id='map6'></div><div class='mapCaption'>Map Data: <a href='http://openstreetmap.org'>OpenStreetMap</a> and contributors. <a href='http://creativecommons.org/licenses/by-sa/2.0/'>CC-BY-SA</a> - Tiles Courtesy of <a href='http://www.mapquest.com/' target='_blank'>MapQuest</a><img src='http://developer.mapquest.com/content/osm/mq_logo.png'></div></div><script type='text/javascript'>jQuery(document).ready(function() {initmap('map6',52.5186,13.408056,12,'We\'ll meet here','It\'s a nice place');});</script></p>
 
 <h2>Code</h2>
 
@@ -37,7 +37,7 @@
     <id>http://mguentner.github.com/octolayer/blog/2012/05/07/just-a-marker</id>
     <content type="html"><![CDATA[<h2>Just a marker without a popup</h2>
 
-<p><div class='map'><div style='height:420px' id='map7'></div><div class='mapCaption'>Map Data: <a href='http://openstreetmap.org'>OpenStreeMap</a> and contributors. <a href='http://creativecommons.org/licenses/by-sa/2.0/'>CC-BY-SA</a> - Tiles Courtesy of <a href='http://www.mapquest.com/' target='_blank'>MapQuest</a><img src='http://developer.mapquest.com/content/osm/mq_logo.png'></div></div><script type='text/javascript'>jQuery(document).ready(function() {initmap('map7',52.5186,13.408056,12,'marker','');});</script></p>
+<p><div class='map'><div style='height:420px' id='map7'></div><div class='mapCaption'>Map Data: <a href='http://openstreetmap.org'>OpenStreetMap</a> and contributors. <a href='http://creativecommons.org/licenses/by-sa/2.0/'>CC-BY-SA</a> - Tiles Courtesy of <a href='http://www.mapquest.com/' target='_blank'>MapQuest</a><img src='http://developer.mapquest.com/content/osm/mq_logo.png'></div></div><script type='text/javascript'>jQuery(document).ready(function() {initmap('map7',52.5186,13.408056,12,'marker','');});</script></p>
 
 <h2>Code</h2>
 
@@ -55,7 +55,7 @@
     <id>http://mguentner.github.com/octolayer/blog/2012/05/07/a-simple-map</id>
     <content type="html"><![CDATA[<h2>Berlin</h2>
 
-<p><div class='map'><div style='height:420px' id='map8'></div><div class='mapCaption'>Map Data: <a href='http://openstreetmap.org'>OpenStreeMap</a> and contributors. <a href='http://creativecommons.org/licenses/by-sa/2.0/'>CC-BY-SA</a> - Tiles Courtesy of <a href='http://www.mapquest.com/' target='_blank'>MapQuest</a><img src='http://developer.mapquest.com/content/osm/mq_logo.png'></div></div><script type='text/javascript'>jQuery(document).ready(function() {initmap('map8',52.5186,13.408056,12,'','');});</script></p>
+<p><div class='map'><div style='height:420px' id='map8'></div><div class='mapCaption'>Map Data: <a href='http://openstreetmap.org'>OpenStreetMap</a> and contributors. <a href='http://creativecommons.org/licenses/by-sa/2.0/'>CC-BY-SA</a> - Tiles Courtesy of <a href='http://www.mapquest.com/' target='_blank'>MapQuest</a><img src='http://developer.mapquest.com/content/osm/mq_logo.png'></div></div><script type='text/javascript'>jQuery(document).ready(function() {initmap('map8',52.5186,13.408056,12,'','');});</script></p>
 
 <h2>Code</h2>
 
