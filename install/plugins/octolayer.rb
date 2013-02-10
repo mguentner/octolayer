@@ -36,7 +36,7 @@ module Jekyll
     def render(context)
       output = super
       if @lat
-        caption = "Map Data: <a href='http://openstreetmap.org'>OpenStreetMap</a> and contributors. <a href='http://creativecommons.org/licenses/by-sa/2.0/'>CC-BY-SA</a> - Tiles Courtesy of <a href='http://www.mapquest.com/' target='_blank'>MapQuest</a><img src='http://developer.mapquest.com/content/osm/mq_logo.png'>"
+        caption = "Map Data: <a href='http://openstreetmap.org'>OpenStreetMap</a> contributors <a href='http://www.openstreetmap.org/copyright'>License</a> - Tiles Courtesy of <a href='http://www.mapquest.com/' target='_blank'>MapQuest</a><img src='http://developer.mapquest.com/content/osm/mq_logo.png'>"
         source = "<div class='map'><div style='height:420px' id='map#{@mapID}'></div><div class='mapCaption'>#{caption}</div></div>"\
                  "<script type='text/javascript'>"\
                  "jQuery(document).ready(function() {"\
