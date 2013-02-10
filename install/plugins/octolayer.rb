@@ -16,7 +16,7 @@ module Jekyll
     @zoomLevel = nil
     @mapID = nil
     def initialize(tag_name, markup, tokens)
-      if markup =~ /(\d{1,3}\.\d+)(\s+)(\d{1,3}\.\d+)(\s+)(\d+)((\s+)(\"(([^\"])*)\"))?((\s+)(\"(([^\"])*)\"))?(\s*)/i
+      if markup =~ /(-?\d{1,3}\.\d+)(\s+)(-?\d{1,3}\.\d+)(\s+)(\d+)((\s+)(\"(([^\"])*)\"))?((\s+)(\"(([^\"])*)\"))?(\s*)/i
         @lat=$1
         @lon=$3
         @zoomLevel=$5
